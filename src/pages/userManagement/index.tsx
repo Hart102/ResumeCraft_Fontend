@@ -44,7 +44,7 @@ const UserManagement = () => {
                 <div className="overflow-x-auto px-4 lg:px-6">
                     <div className="flex items-center justify-between mb-8">
                         <h1 className="font-semibold text-gray-500 flex items-center gap-1 tracking-widest">
-                            <UserGroupIcon className="w-6 h-6" />USERS MANAGEMENT
+                            <UserGroupIcon className="w-6 h-6" />USER MANAGEMENT
                         </h1>
                         <Link to="/create" className="bg-blue-600 text-white rounded p-2 hover:bg-blue-400">Create user</Link>
                     </div>
