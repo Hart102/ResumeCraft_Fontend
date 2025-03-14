@@ -86,6 +86,8 @@ const UserRegistrationForm = () => {
     setLoading(true);
     setError(null);
 
+    console.log(data)
+
     const currentUrl = params.userId == "create" ? "http://localhost:3000/users/create-user" : `http://localhost:3000/users/user/update/${params.userId}`
 
     try {

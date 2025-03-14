@@ -1,12 +1,8 @@
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
-import { CreateUserRequest } from "../../interface";
 import { dateFormater } from "../util";
 
 
-interface Props {
-  user: CreateUserRequest;
-}
 
 const ResumeTemplate = () => {
   const personalInfo = useSelector((state: RootState) => state.personalInfo);
